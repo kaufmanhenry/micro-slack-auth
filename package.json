@@ -1,0 +1,30 @@
+{
+  "name": "micro-slack-auth",
+  "version": "1.0.0",
+  "description": "A microservice for OAuth with Slack.",
+  "main": "index.js",
+  "scripts": {
+    "start": "micro",
+    "test": "standard",
+    "dev": "nodemon --exec \"npm start\" -e \"js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hcjk/micro-slack-auth.git"
+  },
+  "keywords": [],
+  "author": "Henry Kaufman <henry@kaufman.io> (http://kaufman.io)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hcjk/micro-slack-auth/issues"
+  },
+  "homepage": "https://github.com/hcjk/micro-slack-auth#readme",
+  "dependencies": {
+    "axios": "0.16.1",
+    "dotenv": "4.0.0",
+    "micro": "7.3.1",
+    "micro-redirect": "1.0.0",
+    "microrouter": "2.0.2",
+    "uid-promise": "0.1.0"
+  }
+}
