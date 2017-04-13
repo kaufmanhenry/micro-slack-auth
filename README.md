@@ -10,7 +10,7 @@ Here's an example:
 # Your Slack application client ID
 SLACK_CLIENT_ID=1234
 # Your Slack application client secret
-GH_CLIENT_SECRET=1234
+SLACK_CLIENT_SECRET=1234
 # The URL to redirect a user to after they successfully connect their account
 SLACK_REDIRECT=https://google.com
 ```
